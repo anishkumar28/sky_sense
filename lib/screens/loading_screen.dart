@@ -24,20 +24,21 @@ class _LoadingScreenState extends State<LoadingScreen> {
       permission = await Geolocator.requestPermission();
     }
     try {
-      Position position = await Geolocator.
-      getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
-      print(position);
+      somethingThatExpectsLessThan10(12);
+      // Position position = await Geolocator.
+      // getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
+      // print(position);
     }
     catch(e) {
       print(e);
     }
   }
 
-//   void somethingThatExpectsLessThan10(int n ){
-//     if(n > 10){
-//       throw 'n is greater than 10';
-//     }
-// }
+  void somethingThatExpectsLessThan10(int n ){
+    if(n > 10){
+      throw 'n is greater than 10, n should always be less than 10';
+    }
+}
 
   @override
   Widget build(BuildContext context) {
