@@ -40,7 +40,7 @@ class _LocationScreenState extends State<LocationScreen> {
         return;
       }
 
-    double temp = weatherData['main']['temp'];
+    dynamic temp = weatherData['main']['temp'];
     temperature = temp.toInt();
 
     var condition = weatherData['weather'][0]['id'];
