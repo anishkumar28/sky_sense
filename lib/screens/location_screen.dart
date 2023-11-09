@@ -22,7 +22,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 Colors.white.withOpacity(0.8), BlendMode.dstATop),
           ),
         ),
-        constraints: const BoxConstraints.expand(),
+        constraints:const BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
