@@ -4,7 +4,11 @@ import 'package:sky_sense/services/weather.dart';
 
 
 class LocationScreen extends StatefulWidget {
-  const LocationScreen({super.key});
+
+  const LocationScreen({super.key, this.locationWeather});
+
+
+  final locationWeather;
 
   @override
   State<LocationScreen> createState() => _LocationScreenState();
