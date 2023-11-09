@@ -15,13 +15,46 @@ class LocationScreen extends StatefulWidget {
 }
 
 class _LocationScreenState extends State<LocationScreen> {
+
+  WeatherModel weather = WeatherModel();
+  late int temperature;
+  late String weatherIcon;
+  late String cityName;
+  late String weatherMessage;
+
+  @override
+  void initState() {
+    updateUI(widget.locationWeather);
+    super.initState();
+  }
+
+  void updateUI(dynamic weatherData){
+    setState(() {
+
+    double temp = weatherData['main']['temp'];
+    temperature = temp.toInt();
+
+    var condition = weatherData['weather'][0]['id'];
+    weatherIcon = weather.getWeatherIcon(condition);
+
+    weatherMessage = weather.getMessage(temperature);
+
+    cityName = weatherData['name'];
+
+    });
+
+
+  }
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: const AssetImage('images/location_background.jpg'),
+            image: const AssetImage('images/location_background.png'),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
                 Colors.white.withOpacity(0.8), BlendMode.dstATop),
