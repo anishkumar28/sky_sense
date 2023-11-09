@@ -38,13 +38,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     return LocationScreen(locationWeather: weatherData,
     );
   }));
-
-  double temperature = decodedData['main']['temp'];
-  int condition = decodedData['weather'][0]['id'];
-  String cityName = decodedData['name'];
-
   }
-
 
   @override
   Widget build(BuildContext context) {
