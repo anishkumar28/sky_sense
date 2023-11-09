@@ -73,6 +73,7 @@ class _LocationScreenState extends State<LocationScreen> {
                     onPressed: () {},
                     child: const Icon(
                       Icons.near_me,
+                      color: Colors.white,
                       size: 50.0,
                     ),
                   ),
@@ -80,6 +81,7 @@ class _LocationScreenState extends State<LocationScreen> {
                     onPressed: () {},
                     child: const Icon(
                       Icons.location_city,
+                      color: Colors.white,
                       size: 50.0,
                     ),
                   ),
