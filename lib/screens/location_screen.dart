@@ -90,8 +90,8 @@ class _LocationScreenState extends State<LocationScreen> {
                     ),
                   ),
                   TextButton(
-                    onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context){
+                    onPressed: () async{
+                      var typedName = await Navigator.push(context, MaterialPageRoute(builder: (context){
                         return const CityScreen();
                       },
                       ),
