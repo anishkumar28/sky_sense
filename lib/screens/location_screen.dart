@@ -92,8 +92,10 @@ class _LocationScreenState extends State<LocationScreen> {
                   TextButton(
                     onPressed: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context){
-                        return CityScreen();
-                      }));
+                        return const CityScreen();
+                      },
+                      ),
+                      );
                     },
                     child: const Icon(
                       Icons.location_city,
