@@ -96,6 +96,9 @@ class _LocationScreenState extends State<LocationScreen> {
                       },
                       ),
                       );
+                      if(typedName != null){
+                        var weatherData = weather.getCityWeather(typedName);
+                      };
                     },
                     child: const Icon(
                       Icons.location_city,
