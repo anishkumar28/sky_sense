@@ -2,9 +2,8 @@
 <h2 align="center">Updated to Flutter 3.0</h2>
 
 
-<p align="center">
 https://github.com/anishkumar28/sky_sense/assets/94281610/6b3d25af-3b71-44d7-966b-497aa72a437a
-</p>
+
 
 # FlutterWeather
 
