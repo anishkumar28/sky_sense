@@ -28,7 +28,7 @@ A simple weather App created using [Flutter](https://flutter.dev/) and [Dart](ht
    ```sh
    flutter pub get
    ```
-5. Navigate to **lib/provider/weatherProvider.dart** and paste your API key to the apiKey variable
+5. Navigate to **lib/utilities/constants.dart** and paste your API key to the apiKey constant
    ```dart
    String apiKey = 'Paste Your API Key Here';
    ```
