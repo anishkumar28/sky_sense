@@ -1,5 +1,5 @@
 <h1 align="center">Sky Sense</h1>
-<h2 align="center">Updated to Flutter 3.0</h2>
+<h2 align="center">Updated to Flutter 3.10.6</h2>
 
 
 https://github.com/anishkumar28/sky_sense/assets/94281610/6b3d25af-3b71-44d7-966b-497aa72a437a
