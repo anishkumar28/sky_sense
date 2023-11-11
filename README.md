@@ -5,7 +5,7 @@
 https://github.com/anishkumar28/sky_sense/assets/94281610/6b3d25af-3b71-44d7-966b-497aa72a437a
 
 
-# FlutterWeather
+# Sky Sense
 
 A simple weather App created using [Flutter](https://flutter.dev/) and [Dart](https://dart.dev/) and using API from [OpenWeatherMap](https://openweathermap.org/)
 
