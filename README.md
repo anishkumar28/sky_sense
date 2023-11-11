@@ -30,7 +30,7 @@ A simple weather App created using [Flutter](https://flutter.dev/) and [Dart](ht
    ```
 5. Navigate to **lib/utilities/constants.dart** and paste your API key to the apiKey constant
    ```dart
-   String apiKey = 'Paste Your API Key Here';
+   const apiKey = 'Paste Your API Key Here';
    ```
 6. Run the App
 
