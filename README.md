@@ -3,9 +3,7 @@
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/60814961/209642694-cc9f7a28-96cc-419a-bb5c-6fb23d7befe2.png" width="30%"></img> 
-<img src="https://user-images.githubusercontent.com/60814961/209642769-c81b7288-34d8-4a95-ab14-54a31dbfeb10.png" width="30%"></img> 
-<img src="https://user-images.githubusercontent.com/60814961/209642813-6a1a32ae-7a39-48b9-ad95-e99f8cce72fb.png" width="30%"></img> 
+https://github.com/anishkumar28/sky_sense/assets/94281610/6b3d25af-3b71-44d7-966b-497aa72a437a
 </p>
 
 # FlutterWeather
